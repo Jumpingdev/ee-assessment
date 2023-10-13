@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CL Equal Experts Assessment</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="calculator__header">
+        <img
+          src="https://www.equalexperts.com/wp-content/themes/equalexperts/assets/logo.svg"
+          alt="Equal Experts"
+          title="Equal Experts logo"
+        />
+      </div>
+      <div class="calculator__body">
+        <input type="text" id="screen" readonly="true" />
+        <div class="row">
+          <button class="input input--double input--method" data-method="clear">
+            C
+          </button>
+          <button class="input input--method" data-method="delete">⌫</button>
+          <button class="input" data-value="*">*</button>
+        </div>
+        <div class="row">
+          <button class="input" data-value="7">7</button>
+          <button class="input" data-value="8">8</button>
+          <button class="input" data-value="9">9</button>
+          <button class="input" data-value="/">÷</button>
+        </div>
+        <div class="row">
+          <button class="input" data-value="4">4</button>
+          <button class="input" data-value="5">5</button>
+          <button class="input" data-value="6">6</button>
+          <button class="input" data-value="-">-</button>
+        </div>
+        <div class="row">
+          <button class="input" data-value="1">1</button>
+          <button class="input" data-value="2">2</button>
+          <button class="input" data-value="3">3</button>
+          <button class="input" data-value="+">+</button>
+        </div>
+        <div class="row">
+          <button class="input" data-value="0">0</button>
+          <button class="input" data-value=".">.</button>
+          <button
+            class="input input--double input--method"
+            data-method="calculate"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <script type="module" src="./assets/js/scripts.js"></script>
+  </footer>
+</html>

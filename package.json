@@ -1,0 +1,30 @@
+{
+  "name": "equal-experts-test",
+  "version": "1.0.0",
+  "description": "Submission for equal experts",
+  "main": "scripts.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest",
+    "watch:ts": "tsc --watch",
+    "watch:scss": "sass assets/scss/styles.scss:assets/css/styles.css --style=compressed --watch",
+    "watch": "npm run watch:ts && npm run watch:scss"
+  },
+  "author": "Chris Lunt",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "sass": "^1.69.3",
+    "typescript": "^5.2.2",
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-typescript": "^7.23.2",
+    "@jest/globals": "^29.7.0",
+    "babel-jest": "^29.7.0",
+    "ts-jest": "^29.1.1"
+  }
+}
